@@ -1,7 +1,7 @@
+import cors from "cors";
 import express from "express";
 import http from "http";
 import dotenv from "dotenv";
-import cors from "cors";
 import { Server } from "socket.io";
 import connectDB from "./config/db.js";
 import userRoutes from "./routes/userRoutes.js";
